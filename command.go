@@ -7,9 +7,9 @@ import (
 	"strings"
 	"time"
 
-	"./internal"
-	"./internal/pool"
-	"./internal/proto"
+	"gopkg.in/radiantrfid/redis.v5/internal"
+	"gopkg.in/radiantrfid/redis.v5/internal/pool"
+	"gopkg.in/radiantrfid/redis.v5/internal/proto"
 )
 
 var (

@@ -8,7 +8,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"../../internal"
+	"gopkg.in/radiantrfid/redis.v5/internal"
 )
 
 var (

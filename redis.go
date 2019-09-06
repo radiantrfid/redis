@@ -5,9 +5,9 @@ import (
 	"log"
 	"time"
 
-	"./internal"
-	"./internal/pool"
-	"./internal/proto"
+	"gopkg.in/radiantrfid/redis.v5/internal"
+	"gopkg.in/radiantrfid/redis.v5/internal/pool"
+	"gopkg.in/radiantrfid/redis.v5/internal/proto"
 )
 
 // Redis nil reply, .e.g. when key does not exist.

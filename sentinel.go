@@ -8,8 +8,8 @@ import (
 	"sync"
 	"time"
 
-	"./internal"
-	"./internal/pool"
+	"gopkg.in/radiantrfid/redis.v5/internal"
+	"gopkg.in/radiantrfid/redis.v5/internal/pool"
 )
 
 //------------------------------------------------------------------------------
