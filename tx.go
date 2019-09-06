@@ -1,8 +1,8 @@
 package redis
 
 import (
-	"gopkg.in/radiantrfid/redis.v5/internal"
-	"gopkg.in/radiantrfid/redis.v5/internal/pool"
+	"./internal"
+	"./internal/pool"
 )
 
 // Redis transaction failed.

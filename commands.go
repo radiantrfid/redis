@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"time"
 
-	"gopkg.in/radiantrfid/redis.v5/internal"
+	"./internal"
 )
 
 func readTimeout(timeout time.Duration) time.Duration {

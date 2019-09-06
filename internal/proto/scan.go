@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"reflect"
 
-	"gopkg.in/radiantrfid/redis.v5/internal"
+	"../../internal"
 )
 
 func Scan(b []byte, v interface{}) error {

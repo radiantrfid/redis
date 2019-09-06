@@ -4,7 +4,7 @@ import (
 	"errors"
 	"sync"
 
-	"gopkg.in/radiantrfid/redis.v5/internal/pool"
+	"./internal/pool"
 )
 
 type pipelineExecer func([]Cmder) error

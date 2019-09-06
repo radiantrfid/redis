@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"time"
 
-	"gopkg.in/radiantrfid/redis.v5/internal/proto"
+	"./internal/proto"
 )
 
 // Implements proto.MultiBulkParse

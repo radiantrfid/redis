@@ -5,7 +5,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"gopkg.in/radiantrfid/redis.v5/internal/proto"
+	"../../internal/proto"
 )
 
 var noDeadline = time.Time{}

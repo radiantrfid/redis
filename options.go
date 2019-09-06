@@ -10,7 +10,7 @@ import (
 	"strings"
 	"time"
 
-	"gopkg.in/radiantrfid/redis.v5/internal/pool"
+	"./internal/pool"
 )
 
 type Options struct {

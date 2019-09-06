@@ -7,10 +7,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"gopkg.in/radiantrfid/redis.v5/internal"
-	"gopkg.in/radiantrfid/redis.v5/internal/hashtag"
-	"gopkg.in/radiantrfid/redis.v5/internal/pool"
-	"gopkg.in/radiantrfid/redis.v5/internal/proto"
+	"./internal"
+	"./internal/hashtag"
+	"./internal/pool"
+	"./internal/proto"
 )
 
 var errClusterNoNodes = internal.RedisError("redis: cluster has no nodes")
