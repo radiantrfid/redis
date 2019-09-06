@@ -6,7 +6,7 @@ import (
 	"io"
 	"strconv"
 
-	"gopkg.in/redis.v5/internal"
+	"gopkg.in/radiantrfid/redis.v5/internal"
 )
 
 const bytesAllocLimit = 1024 * 1024 // 1mb

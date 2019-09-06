@@ -9,8 +9,8 @@ import (
 	"testing"
 	"time"
 
-	"gopkg.in/redis.v5"
-	"gopkg.in/redis.v5/internal/hashtag"
+	"gopkg.in/radiantrfid/redis.v5"
+	"gopkg.in/radiantrfid/redis.v5/internal/hashtag"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

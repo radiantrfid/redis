@@ -6,8 +6,8 @@ import (
 	"sync"
 	"time"
 
-	"gopkg.in/redis.v5/internal"
-	"gopkg.in/redis.v5/internal/pool"
+	"gopkg.in/radiantrfid/redis.v5/internal"
+	"gopkg.in/radiantrfid/redis.v5/internal/pool"
 )
 
 // PubSub implements Pub/Sub commands as described in

@@ -6,7 +6,7 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	"gopkg.in/redis.v5"
+	"gopkg.in/radiantrfid/redis.v5"
 )
 
 var _ = Describe("ScanIterator", func() {

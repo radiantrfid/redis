@@ -3,7 +3,7 @@
 package redis
 
 import (
-	"gopkg.in/redis.v5/internal/pool"
+	"gopkg.in/radiantrfid/redis.v5/internal/pool"
 )
 
 type baseClient struct {

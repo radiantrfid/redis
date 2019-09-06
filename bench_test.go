@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"gopkg.in/redis.v5"
+	"gopkg.in/radiantrfid/redis.v5"
 )
 
 func benchmarkRedisClient(poolSize int) *redis.Client {

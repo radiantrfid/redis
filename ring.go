@@ -9,10 +9,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"gopkg.in/redis.v5/internal"
-	"gopkg.in/redis.v5/internal/consistenthash"
-	"gopkg.in/redis.v5/internal/hashtag"
-	"gopkg.in/redis.v5/internal/pool"
+	"gopkg.in/radiantrfid/redis.v5/internal"
+	"gopkg.in/radiantrfid/redis.v5/internal/consistenthash"
+	"gopkg.in/radiantrfid/redis.v5/internal/hashtag"
+	"gopkg.in/radiantrfid/redis.v5/internal/pool"
 )
 
 var errRingShardsDown = errors.New("redis: all ring shards are down")
